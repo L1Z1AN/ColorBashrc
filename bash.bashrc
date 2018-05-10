@@ -18,9 +18,10 @@ fi
 
 
 # set a fancy prompt (non-color, overwrite the one in /etc/profile)
+###################################    |---------------------------PARTE A EDITAR COLORES-------------------------------|
 PS1="${debian_chroot:+($debian_chroot)}\[\e[1;31m\]\u@\[\e[m\]\[\e[1;34m\]\h:\[\e[m\]\[\e[1;32m\]\w\$\[\e[m\]\[\e[0;36m\] "
 
-
+#-LINEA ORIGINAL DEL ARCHIVO-#
 #\u@\h:\w\$
 
 
